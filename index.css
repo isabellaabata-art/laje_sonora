@@ -57,6 +57,28 @@ h3 {
     font-family:"Big Shoulders", "Arial Narrow", sans-serif;
     font-size: 34px;
     font-weight: 900;
+    text-decoration: none;
 
 }
 
+.menu{
+    display: flex;
+    gap: 36px;
+
+a{
+    font-weight: 600;
+    text-decoration: none;
+    padding-bottom: 4px;
+    border-bottom: 4px solid transparent;
+}
+
+a:hover{
+    border-bottom-color:var(--tinta);
+    
+}
+
+a.atual{
+
+border-bottom-color:var(--fita);
+}
+}
